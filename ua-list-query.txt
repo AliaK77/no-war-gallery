@@ -1,0 +1,17 @@
+### use this query to get UA objkt ids
+host: https://api.hicdex.com/graphiql/
+
+
+
+query uaShareholder($contracts: [String!]) {
+  hic_et_nunc_splitcontract(where: {shareholder: {split_contract: {}, holder: {address: {_eq: "KT1DWnLiUkNtAQDErXxudFEH63JC6mqg3HEx"}}}}) {
+    contract {
+      tokens {
+        id
+      }
+    }
+  }
+} 
+
+
+
