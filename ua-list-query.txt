@@ -1,6 +1,8 @@
 ### use this query to get UA objkt ids
 host: https://api.hicdex.com/graphiql/
 
+see discord chat: https://discord.com/channels/908672304236625970/951351576839221248
+
 
 
 query uaShareholder($contracts: [String!]) {
